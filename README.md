@@ -73,7 +73,8 @@ Cette image montre la configuration des icônes du menu avec l’outil Vector As
 
 Cette capture montre le menu utilisé pour ajouter un nouveau fragment dans le projet.
 
-<img width="970" height="592" alt="image" src="https://github.com/user-attachments/assets/81ba3b84-8aad-43ae-b68f-186564ce84b4" />
+<img width="901" height="594" alt="image" src="https://github.com/user-attachments/assets/299a2ce2-0650-4d26-ab36-ab5b2f93abe5" />
+
 
 ### Configuration du composant
 
