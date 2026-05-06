@@ -37,38 +37,6 @@ ListFragment
 Vector Asset  
 Pixel 5 Emulator  
 
-## Organisation du projet
-
-
-```
-AndroidNavigationDrawer/
-│
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/
-│           │   └── com/example/navigationdrawer/
-│           │       ├── MainActivity.java
-│           │       ├── BlankFragment.java
-│           │       ├── BlankFragment2.java
-│           │       └── FragmentList.java
-│           │
-│           └── res/
-│               ├── layout/
-│               │   ├── activity_main.xml
-│               │   ├── content_main.xml
-│               │   ├── fragment_blank.xml
-│               │   └── fragment_blank2.xml
-│               │
-│               ├── menu/
-│               │   └── activity_main_drawer.xml
-│               │
-│               └── drawable/
-│                   ├── ic_home_xml.xml
-│                   ├── ic_dashboard_xml.xml
-│                   └── ic_list_xml.xml
-```
-
 ## Emplacement des images
 
 Les captures d’écran doivent être mises dans un dossier nommé images.
@@ -151,13 +119,6 @@ getSupportFragmentManager()
         .replace(R.id.content, new BlankFragment())
         .commit();
 
-## Menu de navigation
-
-| Choix dans le menu | Résultat affiché |
-|---|---|
-| Fragment 1 | Affiche le fragment bleu |
-| Fragment 2 | Affiche le fragment rose |
-| Fragment List | Affiche la liste des items |
 
 ## Résultat obtenu
 
